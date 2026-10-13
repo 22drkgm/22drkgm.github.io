@@ -14,6 +14,10 @@ Plain static site (no build step). Structure:
                         and copy cv.pdf over assets/CV_KumarGauravMishra.pdf
     courses/            drop future course-materials subfolders here (see courses/README.md)
 
+## Photos
+- Your photo: replace `assets/profile.svg` with `assets/profile.jpg` (square, 140×140 or larger) and change the `src` in index.html.
+- Right-hand pictures: `assets/scenes.svg` and the banner `assets/filters.svg` are drawn placeholders; swap in your own field/lab photos with the same names or update the `src`.
+
 ## To-do when you have time
 - Replace the "KGM" monogram in index.html (.avatar div) with a real photo.
 - Decide whether to publish a phone number on contact.html (left out by default).
