@@ -29,3 +29,12 @@ Plain static site (no build step). Structure:
 3. In the repo's Settings → Pages, set the source to the `main` branch, root.
 4. For a project-site repo the URL will be `https://<user>.github.io/<repo>/`;
    for a `<user>.github.io` repo it's the bare domain.
+
+## Site versions (switcher pill at the bottom of every page)
+- Original — root `*.html` (unchanged apart from the switcher script line)
+- `v1/` Editorial — white, serif, centred road timeline
+- `v2/` Grid — Swiss grid, sidebar nav, horizontal scroll-driven road on desktop
+- `v3/` Mono — neutral greys, light/dark toggle, winding S-curve road
+- `shared/journey.js` — PhD timeline data used by all three new versions. Add milestones here once; every version updates.
+- `shared/switcher.js` — the version toggle. Remove the `<script ... switcher.js>` line from a page to hide it.
+- Preview locally: `python3 -m http.server 8765` then open http://localhost:8765/
