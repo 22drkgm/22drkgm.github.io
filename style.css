@@ -209,21 +209,15 @@ sup { vertical-align: 0.5em; }
   margin: 0;
   width: 100%;
   max-width: 280px;
-  aspect-ratio: 3 / 4;
   overflow: hidden;
 }
-/* Tight head-and-shoulders crop: the photo is a small figure in a street scene,
-   so scale 2.4x about the face (x 46.9%, y 62.5% of the source) and move that
-   point to the frame's centre-upper area (x 50%, y 40%). */
 .hero-photo img {
   width: 100%;
-  aspect-ratio: 3 / 4;
+  aspect-ratio: 4 / 5;
   height: auto;
   object-fit: cover;
-  border: 0;
-  border-radius: 0;
-  transform-origin: 46.875% 62.5%;
-  transform: translate(3.125%, -22.5%) scale(2.4);
+  object-position: 50% 30%;
+  display: block;
 }
 
 .status {

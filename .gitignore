@@ -1,4 +1,13 @@
-*.aux
-*.log
-*.out
-*.synctex.gz
+# Only the bare essentials are published. Everything else stays local.
+*
+!.gitignore
+!.nojekyll
+!index.html
+!style.css
+!main.js
+!journey.js
+!profile.jpg
+!favicon.svg
+!CV_KumarGauravMishra.pdf
+!logos/
+!logos/*
